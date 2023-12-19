@@ -7,6 +7,7 @@ use MtHaml\Node\Run;
 class Midblock extends NodeVisitorAbstract
 {
     protected $midblockRegex;
+    public $skip;
 
     public function __construct($midblockRegex)
     {
