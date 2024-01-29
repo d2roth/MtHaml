@@ -9,7 +9,7 @@ use MtHaml\NodeVisitor\NodeVisitorInterface;
  */
 class Doctype extends NodeAbstract
 {
-    protected $doctypeId;
+    protected $doctypeId = '';
     protected $options;
 
     protected $doctypes = array(
